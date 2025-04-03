@@ -48,8 +48,15 @@ nav.navbar a.navbar-brand {
     width: 60%;
 }
 #hybridlash {
-    width: 60%;
+    width: 40%;
+  align: center;
 }
+
+#volume {
+  width: 50%;
+  align: center;
+}
+
 /* Search Form Styles */
 form .form-inline {
   width: 35%;
@@ -138,12 +145,7 @@ color: #FF90BC;
 text-decoration: none; /*when we are not hovering on the text there will not be a line at the bottom of the text */
 }
 a:hover {
-text-decoration: underline; /* when we hover a line will apear at the bottom of the text*/}
-/*images*/
-#megavolume {
-  float: center;
-}
-
+text-decoration: underline; /* when we hover a line will apear at the bottom of the text*/
 
 /*accordian*/
 .card-header a {
