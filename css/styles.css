@@ -139,6 +139,11 @@ text-decoration: none; /*when we are not hovering on the text there will not be 
 }
 a:hover {
 text-decoration: underline; /* when we hover a line will apear at the bottom of the text*/}
+/*images*/
+#megavolume {
+  float: center;
+}
+
 
 /*accordian*/
 .card-header a {
