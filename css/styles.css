@@ -1,0 +1,341 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+  font-size: 19px;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", serif;
+  margin: 50px auto;
+  color: #000000;
+  line-height: 1.5;
+  background: #FAE7EB;
+}
+/* Navbar Styles*/
+nav.navbar {
+  padding: 10px; /*Creates space around the navbar*/
+  background-color: #F4C2C2 !important; /*Sets the background colour*/
+}
+nav.navbar .navbar-nav {
+  padding-top: 5px;
+  padding-left: 20px;
+}
+nav.navbar .navbar-nav a.nav-link {
+  padding: 8px 20px;
+  color: #EF0763;
+  text-align: left;
+  font-size: 1rem;
+}
+nav.navbar .navbar-nav a.nav-link:hover {
+  color: #EF0763; /*change the color in the navigation bar*/
+}
+nav.navbar .navbar-nav .active a.nav-link {
+  font-weight: bold;
+  color: #EF0763;
+  background: transparent;
+  border-bottom: 4px solid #EF0763;
+}
+nav.navbar a.navbar-brand {
+  color: #EF0763;
+}
+/* Image Styles */
+#carouselExampleIndicators1 img, section img, video {
+  width: 100%;
+  height: auto;
+}
+
+#lashbeforeafter {
+    width: 60%;
+}
+#hybridlash {
+    width: 60%;
+}
+/* Search Form Styles */
+form .form-inline {
+  width: 35%;
+}
+form.form-inline input[type=search] {
+  border-radius: 0;
+  width: 65%;
+  font-size: 0.85rem;
+  border: 1px solid #EF0763;
+  margin: 0;
+  background: transparent;
+  max-width: 250px;
+  padding: 15px;
+  color: #EF0763;
+}
+form.form-inline input[type=search]::placeholder {
+  color: #EF0763;
+}
+form.form-inline button[type=submit] {
+  border: 1px solid #EF0763;
+  color: #EF0763;
+  width: 30%;
+  border-radius: 0;
+  padding: 8px 0 7px 0; /*there are 4 volumes for the bar search*/
+  font-size: 0.85rem;
+  margin-left: -6px;
+  max-width: 100px;
+}
+form.form-inline button.btn:hover {
+  background: transparent;
+  color: hotpink; /*Change the color insire the GO buttom bar*/
+}
+
+#lashtech {
+    width: 155%;
+}
+/* Text Styles */
+h1 {
+  font-size: 2.5rem;
+  font-variant: normal;
+}
+h2 {
+  font-size: 1.25rem;
+}
+h3 {
+  font-size: 1rem;
+}
+h1, h2, h5 {
+  color: #EF0763;
+  margin: 0 0 1rem 0;
+}
+h3 {
+  color: #EF0763;
+  margin: 0 0 1rem 0;
+}
+h6 {
+  color: white;
+  margin: 0 0 1rem 0;
+}
+h4 {
+  color: #EF0763;
+  margin: 0 0 1rem 0;
+}
+p {
+  font-size: 1rem;
+  margin: 0 0 1rem 0;
+}
+ul li {
+  font-size: 0.95rem;
+  margin: 0 0 0.9rem 0;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.cColour {
+  color: #EF0763;
+}
+
+/*Link Styles*/
+
+a:link, a:active, a:visited {
+color: #FF90BC;
+text-decoration: none; /*when we are not hovering on the text there will not be a line at the bottom of the text */
+}
+a:hover {
+text-decoration: underline; /* when we hover a line will apear at the bottom of the text*/}
+
+/*accordian*/
+.card-header a {
+  color: #EF0763;
+}
+/*Footer Styles */
+footer {
+  width: 100%;
+}
+footer h2 {}
+.footerL {
+  float: left;
+  padding: 0;
+  border-right: 1px solid #EF0763; /*this will create a solid border separation between two columns in the bottom of the website*/
+}
+.footerR {
+  float: right;
+  text-align: right; /*this align all the text up to the right side of the footer column*/
+  padding: 0;
+}
+.footerR p.linked {
+  background: url("../images/logoeyelashes.jpg") no-repeat right; /*this is adding a background link and the bottom of the website*/
+  padding-right: 35px;
+}
+/* Comment Form Styles */
+#frmComment {
+  width: 90%;
+  margin: 30px auto;
+}
+#frmComment label {
+  float: left;
+  width: 90%;
+  display: block;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+#frmComment label span {
+  float: left;
+  width: 30%;
+  text-align: right;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+#frmComment label:hover span {
+  color: #EF0763;
+}
+#frmComment input {
+  float: left;
+  width: 50%;
+  border: 1px solid #EF0763;
+  margin: 10px 0 0 20px;
+  padding: 20px 5px;
+  height: 18px;
+}
+#frmComment input:hover, #frmComment textarea:hover {
+  box-shadow: 5px 5px 8px #F4C2C2;
+}
+#frmComment textarea {
+  float: left;
+  width: 51%;
+  margin: 8px 0 0 20px;
+  border: solid 1px #EF0763;
+  box-shadow: 2px 8px 8px #F4C2C2;
+  padding: 5px 0 0 5px;
+}
+select {
+  width: 50%;
+  padding: 20px 5px;
+  margin: 18px 0 0 20px;
+  border: 1.5px solid #EF0763;
+  font-size: 16px;
+}
+#frmComment input[type=submit] {
+  padding: 10px 2px; /*This is gonna change the space inside the box*/
+  text-align: center;
+  width: 140px;
+  float: left;
+  color: #F4C2C2;
+  background: #EF0763;
+  border: 1.5px solid #EF0763;
+  margin: 0px 0 0 32%; /*This is gonna add space outside the box*/
+  border-radius: 7px; /*This is gonna add space between the box*/
+  cursor: pointer;
+  height: 45px;
+}
+/* Table Styles */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  margin: 0;
+}
+th { /* th is gonna format the table headings */
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000;
+  padding: 10px 8px;
+  border-bottom: 2px solid #000; /* this is gonna add border line under the headings of the table */
+  text-align: center;
+}
+td { /*This show the text*/
+  font-size: 0.9rem;
+  border-bottom: 1px solid #CCC;
+  color: #000000;
+  padding: 12px 6px;
+  text-align: center; /* This help to aling the text in the centre */
+}
+table tr:nth-of-type(even) {
+  background-color: #F4C2C2;
+}
+table tr:nth-of-type(even):hover {
+  background-color: #F3C2C2;
+  cursor: pointer;
+}
+table tr:nth-of-type(odd) {
+  background-color: #F4C2C2;
+}
+table tr:nth-of-type(odd) :hover {
+  background-color: #fae7eb;
+  cursor: pointer;
+}
+@media screen and (max-width:768px) {
+  table, thead, tbody, th, td, tr, caption {
+    display: block;
+  }
+  thead tr {
+    display: none;
+  }
+  table td {
+    border: none;
+    position: relative;
+    text-align: right;
+    font-size: 0.9rem;
+    border-bottom: 2px solid white;
+  }
+  td:before {
+    position: absolute;
+    top: 9px;
+    left: 5px;
+    width: 55%;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: left;
+    font-size: 0.9rem;
+  }
+  td:nth-of-type(4) {
+    border-bottom: 4px solid white;
+  }
+  /* add the row labels*/
+  td:nth-of-type(1):before {
+    content: "Name";
+  }
+  td:nth-of-type(2):before {
+    content: "Top";
+  }
+  td:nth-of-type(3):before {
+    content: "Heart";
+  }
+  td:nth-of-type(4):before {
+    content: "Base";
+  }
+}
+@media screen and (max-width: 992px) {
+  /* media screen changes the menu bar that when you see it in your phone or make the screen smaller, this changes the sixe of the menu automatically*/
+  .menu {
+    display: block;
+  }
+  nav.navbar .navbar-nav {
+    padding-left: 0;
+  }
+  nav.navbar .navbar-nav a.nav-link {
+    padding: 8px 20px 8px 0;
+    width: 50%;
+  }
+  form.form-inline {
+    width: 100%;
+  }
+  form.form-inline input[type=search] {
+    width: 90%;
+  }
+  form.form-inline button[type=submit] {
+    display: none; /* changes the Go buttom and hide it */
+    width: 0;
+  }
+  .footerL {
+    border-right: none;
+    border-bottom: 1px solid #999;
+    padding-left: 1rem;
+  }
+  .footerR {
+    text-align: left;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+  }
+  .footerR p.linked {
+    background: url("../images/linkedin.png") no-repeat 65px 0;
+    padding-right: 30px;
+  }
+}
