@@ -170,11 +170,13 @@ footer h2 {}
   float: left;
   padding: 0;
   border-right: 1px solid #EF0763; /*this will create a solid border separation between two columns in the bottom of the website*/
+  background: green;
 }
 .footerR {
   float: right;
   text-align: right; /*this align all the text up to the right side of the footer column*/
   padding: 0;
+    background: red;
 }
 .footerR p.linked {
   background: url("../images/logoeyelashes.jpg") no-repeat right; /*this is adding a background link and the bottom of the website*/
